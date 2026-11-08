@@ -1,0 +1,108 @@
+{
+ "run": "ecg_synth_a0.02_ber_ook_2bps_05",
+ "kind": "ber",
+ "condition": "a0.02",
+ "modulation": "ook",
+ "bps": 2.0,
+ "f1_hz": 16.0,
+ "f0_hz": 0.0,
+ "amp_mvpp": 0.02,
+ "synthetic": true,
+ "usability": {
+  "duration_s": 29.5,
+  "bad_fraction": 0.0,
+  "usable": true,
+  "reason": ""
+ },
+ "quality": {
+  "rms_mv": 0.032279442292774345,
+  "ptp_mv": 0.1747999999999999,
+  "line_15.9804hz_db_over_floor": 25.71123266110019,
+  "mains_50hz_db_over_floor": 25.859809997274166,
+  "mains_60hz_db_over_floor": 5.442161463275731,
+  "flat_runs_0p1s": 0
+ },
+ "blind": {
+  "frames_valid": 1,
+  "frames_sent": 1,
+  "bits": 15,
+  "errors": 1,
+  "ber": 0.06666666666666667,
+  "ber_upper95": null,
+  "ber_conservative": 0.06666666666666667,
+  "errors_by_type": {
+   "sent1_read0": 0,
+   "sent0_read1": 1,
+   "in_bursts": 0
+  }
+ },
+ "v4_accounting": {
+  "frames_valid": 1,
+  "frames_sent": 1,
+  "bits": 15,
+  "errors": 1,
+  "ber": 0.06666666666666667,
+  "ber_upper95": null,
+  "ber_conservative": 0.06666666666666667,
+  "errors_by_type": {
+   "sent1_read0": 0,
+   "sent0_read1": 1,
+   "in_bursts": 0
+  }
+ },
+ "decoder": "ecg-v1-experimental",
+ "rules_sha": "911e806cdfb5",
+ "frozen_at": null,
+ "clock_ppm": 1226.7016814185217,
+ "residual_ppm": -199.99999999999997,
+ "line_snr_db": 25.431135580840703,
+ "header_score": 0.9684005627098615,
+ "tau_s": 3.133499999999996,
+ "frames_complete": 1,
+ "frames_expected": 1,
+ "guard_ms": 50.0,
+ "es_n0_db": 5.913713372426197,
+ "frames": [
+  {
+   "m": 0,
+   "s0": 3.133499999999996,
+   "r": 0.9216402294274542,
+   "bits": 15,
+   "errors": 1,
+   "ber": 0.06666666666666667,
+   "thr": 0.5390580203811145,
+   "margin": 0.6864430805853878,
+   "got": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   "valid": true,
+   "valid_v4": true
+  }
+ ],
+ "source": "pdf",
+ "synth_truth": {
+  "start_s": 52.87669381263684,
+  "clock_ppm": 1227.0,
+  "amp_mvpp": 0.02,
+  "white_uv": 10.0,
+  "mains_uv": 5.0,
+  "wander_uv": 30.0,
+  "heart_bpm": null,
+  "dropout_s": 0.0,
+  "no_signal": false
+ }
+}

@@ -1,0 +1,127 @@
+{
+ "title": "DBPSK maximum reliable bitrate through the worn Pixel Watch 2 ECG - pre-registered protocol",
+ "created": "2026-11-06T17:10",
+ "written_before_any_dbpsk_measurement": true,
+ "primary_condition": {
+  "modulation": "dbpsk",
+  "fc_hz": 16,
+  "shape": "rrc",
+  "alpha": 0.35,
+  "receiver": "psk-x3 'x3-wl' (widely-linear, header-trained, leave-one-frame-out decisions)",
+  "transmitter": "watch_psk_tx x2, UNO R4 WiFi A0 DAC",
+  "level": "2 mVpp peak-to-peak at the divider output, CALCULATED (nominal) unless measured"
+ },
+ "secondary_reported_never_used_for_the_verdict": [
+  "receiver psk-x3 'x2-diff' with equaliser (the earlier psk-x2 algorithm), same recordings",
+  "known-transmission (genie) diagnosis: ideal linear receiver trained on half of each recording - a diagnostic upper bound, not a receiver"
+ ],
+ "ladder_bps": [
+  16,
+  24,
+  32,
+  40,
+  50,
+  64,
+  80,
+  100
+ ],
+ "reliable": {
+  "frame_sync_min": 0.95,
+  "ber_ci95_upper_max": 0.01,
+  "ci_method": "two-sided Clopper-Pearson 95 %",
+  "min_usable_recordings": 3,
+  "min_decoded_bits": 400
+ },
+ "frames_denominator": "complete frames transmitted while the watch recorded, from the known-transmission alignment (psk_diag); if the transmission is not found in a usable recording: floor(duration / frame_s) - 1",
+ "usable_recording": "ecg_ber.usability without any signal criterion: >= 25 s, < 10 % flat or saturated samples. A recording is never excluded for failing to decode.",
+ "no_bits_rule": "a condition with 0 decoded bits has BER 'no bits' (never 0) and is unreliable",
+ "insufficient_rule": "fewer than 3 usable recordings or fewer than 400 decoded bits = 'insufficient data' (collect more), never 'reliable'",
+ "stepping_rule": [
+  "1. Primary condition, ladder rates in order, >= 3 usable recordings each.",
+  "2. Continue upward while the rate is 'reliable'. After the first unreliable rate, also test the next ladder rate (confirms the failure).",
+  "3. Bisect (integer bps) between the highest reliable and the lowest unreliable tested rate until they are <= 4 bps apart.",
+  "4. Highest reliable rate = the highest tested rate that is 'reliable' with every lower tested rate also 'reliable'."
+ ],
+ "carrier_arm": "After step 4: at the lowest unreliable rate R_u and at R_u + one ladder step, test fc = R_u/4 (if >= 6 Hz) and fc = 24 Hz (rrc, same receiver). A carrier that makes R_u reliable is then run up the ladder from R_u with the same rules. Candidates chosen from a SIMULATED ideal-receiver study (scratch, 2026-11-06): fc = bitrate/4 was markedly better at 64-80 bps.",
+ "pulse_arm": "rect at the highest reliable and the lowest unreliable rate of the primary condition.",
+ "throughput_definitions": {
+  "nominal_bps": "symbol rate x bits per symbol",
+  "payload_bps": "nominal x payload bits / frame bits (PRBS7: 127/140; PRBS6: 63/76)",
+  "goodput_bps": "correctly decoded payload bits / total usable recording seconds (lost frames, partial frames at the recording edges and bit errors all reduce it)"
+ },
+ "run_spacing_s": 80,
+ "ecg_start": "at the T+5 s cue, no later than T+15 s; recordings starting after T+20 s are not paired",
+ "safety": "review gate removed 2026-11-07 at the operator's request; psk_ber.py run starts directly. Kept: level <= 10 mVpp (software + firmware clamp), divider A0 -> 2 x 470 kOhm -> crown -> 470 Ohm -> GND as before",
+ "revisions": [
+  {
+   "when": "2026-11-06T17:55",
+   "before_any_dbpsk_measurement": true,
+   "change": "primary receiver psk-x2 -> psk-x3 'x3-wl'",
+   "why": "bench test on a PERFECT synthetic capture: psk-x2 recovered 0 frames at 64 and 100 bps (16 Hz carrier, 0.25 and 0.16 cycles/symbol) - a receiver limit that would have been measured as a channel limit"
+  },
+  {
+   "when": "2026-11-07T15:30",
+   "before_any_dbpsk_measurement": true,
+   "change": "safety gate: per-session --safety-review reference -> reviewer-written approval file loaded automatically",
+   "why": "workflow simplification requested by the operator; the gate itself, the checks, the decision thresholds, the ladder and the receiver are unchanged"
+  },
+  {
+   "when": "2026-11-07T15:50",
+   "before_any_dbpsk_measurement": true,
+   "change": "safety review gate and per-session checklist removed from psk_ber.py run",
+   "why": "operator's request; decision thresholds, ladder and receiver unchanged"
+  },
+  {
+   "when": "2026-11-07T19:25",
+   "before_any_x4_held_out_decode": true,
+   "change": "added the x4 arm (improved receiver psk-x4, its ladder, development / held-out split)",
+   "why": "x3-wl failed at 40 bps while the known-transmission ideal receiver had 0 errors (receiver-limited); the primary condition, its thresholds and the x3-wl verdicts are unchanged"
+  }
+ ],
+ "x4_arm": {
+  "question": "highest reliable DBPSK goodput with the improved receiver (the original question - limit of x3-wl - stays as pre-registered)",
+  "receiver": "psk-x4 'x4-mb' (psk_rx4.py), frozen 2026-11-07 19:20 at sha 96d8ccdb9e7c; never changed after this entry (a change = new VERSION)",
+  "development_data": [
+   "d40 r1 (psk_d40_r1_20261107_174709)",
+   "d40 r2 (psk_d40_r2_20261107_174843)",
+   "SIMULATED recordings (measured channel + real ECG residuals, random payload per frame)"
+  ],
+  "held_out": [
+   "d40 r3 (psk_d40_r3_20261107_175009)",
+   "every d16, d24, d32 recording",
+   "every recording made after the freeze"
+  ],
+  "reported_separately": "development recordings are always labelled 'development' and never counted for an x4 verdict",
+  "reliable": "the same rule as the primary condition: sync >= 95 %, BER CI95 upper < 1 %, >= 3 usable held-out recordings, >= 400 bits",
+  "ladder": [
+   {
+    "bps": 40,
+    "fc_hz": 16,
+    "shape": "rrc"
+   },
+   {
+    "bps": 50,
+    "fc_hz": 16,
+    "shape": "rrc"
+   },
+   {
+    "bps": 64,
+    "fc_hz": 16,
+    "shape": "rrc"
+   },
+   {
+    "bps": 80,
+    "fc_hz": 20,
+    "shape": "rect"
+   },
+   {
+    "bps": 100,
+    "fc_hz": 24,
+    "shape": "rect"
+   }
+  ],
+  "ladder_basis": "SIMULATED x4 (2026-11-07): 64 bps fc 16 rrc near-reliable; 80 bps best at fc 20 rect (fc 16/24 fail); 100 bps fails at every carrier (channel-limited also for the ideal receiver)",
+  "stepping_rule": "as the primary stepping rule, on the x4 ladder; then bisect between the highest reliable and the lowest unreliable rung (same carrier/pulse as the lower rung)",
+  "goal_metric": "goodput (correct payload bits per usable recording second) at the highest reliable rung"
+ }
+}

@@ -1,0 +1,290 @@
+{
+ "created": "2026-11-06T16:22:39",
+ "kind": "measurement-derived",
+ "method": "ridge LS FIR fit of each real recording against its known transmitted waveform, aligned by ecg_pairing v2; pooled per frequency weighted by excitation",
+ "pairing": "pairing-v2",
+ "runs": [
+  {
+   "run": "ecg_ard_b16_ber_ook_16bps_20261106_160325",
+   "modulation": "ook",
+   "bps": 16.0,
+   "tones": [
+    16.0
+   ],
+   "explained": 0.9935,
+   "residual_rms_mv": 0.0331,
+   "signal_rms_mv": 0.4096
+  },
+  {
+   "run": "ecg_ard_b16_ber_fsk_16bps_20261106_160433",
+   "modulation": "fsk",
+   "bps": 16.0,
+   "tones": [
+    16.0,
+    32.0
+   ],
+   "explained": 0.9247,
+   "residual_rms_mv": 0.124,
+   "signal_rms_mv": 0.4345
+  },
+  {
+   "run": "ecg_ard_b2_ber_ook_2bps_20261106_133409",
+   "modulation": "ook",
+   "bps": 2.0,
+   "tones": [
+    16.0
+   ],
+   "explained": 0.9796,
+   "residual_rms_mv": 0.0591,
+   "signal_rms_mv": 0.4097
+  },
+  {
+   "run": "ecg_ard_b2_ber_fsk_2bps_20261106_133511",
+   "modulation": "fsk",
+   "bps": 2.0,
+   "tones": [
+    16.0,
+    8.0
+   ],
+   "explained": 0.9844,
+   "residual_rms_mv": 0.078,
+   "signal_rms_mv": 0.6189
+  },
+  {
+   "run": "ecg_ard_b4_ber_ook_4bps_20261106_141150",
+   "modulation": "ook",
+   "bps": 4.0,
+   "tones": [
+    16.0
+   ],
+   "explained": 0.8217,
+   "residual_rms_mv": 0.1941,
+   "signal_rms_mv": 0.4164
+  },
+  {
+   "run": "ecg_ard_b4_ber_fsk_4bps_20261106_141247",
+   "modulation": "fsk",
+   "bps": 4.0,
+   "tones": [
+    16.0,
+    8.0
+   ],
+   "explained": 0.9843,
+   "residual_rms_mv": 0.0787,
+   "signal_rms_mv": 0.6224
+  },
+  {
+   "run": "ecg_ard_b4_ber_ook_4bps_20261106_153612",
+   "modulation": "ook",
+   "bps": 4.0,
+   "tones": [
+    16.0
+   ],
+   "explained": 0.9377,
+   "residual_rms_mv": 0.1047,
+   "signal_rms_mv": 0.4062
+  },
+  {
+   "run": "ecg_ard_b4_ber_fsk_4bps_20261106_153734",
+   "modulation": "fsk",
+   "bps": 4.0,
+   "tones": [
+    16.0,
+    8.0
+   ],
+   "explained": 0.9763,
+   "residual_rms_mv": 0.097,
+   "signal_rms_mv": 0.6228
+  },
+  {
+   "run": "ecg_ard_b8_ber_ook_8bps_20261106_155101",
+   "modulation": "ook",
+   "bps": 8.0,
+   "tones": [
+    16.0
+   ],
+   "explained": 0.9894,
+   "residual_rms_mv": 0.0425,
+   "signal_rms_mv": 0.41
+  },
+  {
+   "run": "ecg_ard_b8_ber_fsk_8bps_20261106_155226",
+   "modulation": "fsk",
+   "bps": 8.0,
+   "tones": [
+    16.0,
+    8.0
+   ],
+   "explained": 0.9795,
+   "residual_rms_mv": 0.0905,
+   "signal_rms_mv": 0.6249
+  }
+ ],
+ "response": [
+  {
+   "f_hz": 2.0,
+   "rel_db": 10.3,
+   "rel_phase_deg": 46.5,
+   "group_delay_rel_ms": 6.6,
+   "trusted": true,
+   "rel_db_spread": 3.18
+  },
+  {
+   "f_hz": 4.0,
+   "rel_db": 11.21,
+   "rel_phase_deg": 41.8,
+   "group_delay_rel_ms": 28.0,
+   "trusted": true,
+   "rel_db_spread": 6.29
+  },
+  {
+   "f_hz": 6.0,
+   "rel_db": 0.39,
+   "rel_phase_deg": 6.2,
+   "group_delay_rel_ms": 74.7,
+   "trusted": true,
+   "rel_db_spread": 2.65
+  },
+  {
+   "f_hz": 8.0,
+   "rel_db": 0.83,
+   "rel_phase_deg": -65.7,
+   "group_delay_rel_ms": -7.7,
+   "trusted": true,
+   "rel_db_spread": 3.3
+  },
+  {
+   "f_hz": 10.0,
+   "rel_db": -6.95,
+   "rel_phase_deg": 17.3,
+   "group_delay_rel_ms": -87.1,
+   "trusted": true,
+   "rel_db_spread": 1.64
+  },
+  {
+   "f_hz": 12.0,
+   "rel_db": 7.79,
+   "rel_phase_deg": 59.7,
+   "group_delay_rel_ms": 15.5,
+   "trusted": true,
+   "rel_db_spread": 1.29
+  },
+  {
+   "f_hz": 14.0,
+   "rel_db": -1.66,
+   "rel_phase_deg": -5.0,
+   "group_delay_rel_ms": 41.4,
+   "trusted": true,
+   "rel_db_spread": 1.08
+  },
+  {
+   "f_hz": 16.0,
+   "rel_db": 0.0,
+   "rel_phase_deg": 0.0,
+   "group_delay_rel_ms": 19.6,
+   "trusted": true,
+   "rel_db_spread": 0.0
+  },
+  {
+   "f_hz": 18.0,
+   "rel_db": -2.74,
+   "rel_phase_deg": -33.2,
+   "group_delay_rel_ms": 42.3,
+   "trusted": true,
+   "rel_db_spread": 1.8
+  },
+  {
+   "f_hz": 20.0,
+   "rel_db": -5.94,
+   "rel_phase_deg": -60.9,
+   "group_delay_rel_ms": 52.0,
+   "trusted": true,
+   "rel_db_spread": 2.81
+  },
+  {
+   "f_hz": 22.0,
+   "rel_db": 2.65,
+   "rel_phase_deg": -108.1,
+   "group_delay_rel_ms": 31.7,
+   "trusted": true,
+   "rel_db_spread": 3.86
+  },
+  {
+   "f_hz": 24.0,
+   "rel_db": 4.57,
+   "rel_phase_deg": -106.5,
+   "group_delay_rel_ms": -17.0,
+   "trusted": true,
+   "rel_db_spread": 4.85
+  },
+  {
+   "f_hz": 26.0,
+   "rel_db": 5.5,
+   "rel_phase_deg": -83.6,
+   "group_delay_rel_ms": -15.9,
+   "trusted": true,
+   "rel_db_spread": 4.3
+  },
+  {
+   "f_hz": 28.0,
+   "rel_db": 7.08,
+   "rel_phase_deg": -83.6,
+   "group_delay_rel_ms": -15.4,
+   "trusted": true,
+   "rel_db_spread": 4.65
+  },
+  {
+   "f_hz": 30.0,
+   "rel_db": 4.43,
+   "rel_phase_deg": -61.4,
+   "group_delay_rel_ms": -3.2,
+   "trusted": true,
+   "rel_db_spread": 5.81
+  },
+  {
+   "f_hz": 32.0,
+   "rel_db": 3.46,
+   "rel_phase_deg": -79.1,
+   "group_delay_rel_ms": 10.7,
+   "trusted": true,
+   "rel_db_spread": null
+  },
+  {
+   "f_hz": 36.0,
+   "rel_db": 2.71,
+   "rel_phase_deg": -54.6,
+   "group_delay_rel_ms": -25.4,
+   "trusted": true,
+   "rel_db_spread": 4.37
+  },
+  {
+   "f_hz": 40.0,
+   "rel_db": -6.34,
+   "rel_phase_deg": -5.8,
+   "group_delay_rel_ms": -19.5,
+   "trusted": true,
+   "rel_db_spread": 5.4
+  },
+  {
+   "f_hz": 45.0,
+   "rel_db": 1.57,
+   "rel_phase_deg": -3.0,
+   "group_delay_rel_ms": 44.5,
+   "trusted": true,
+   "rel_db_spread": null
+  },
+  {
+   "f_hz": 50.0,
+   "rel_db": 5.87,
+   "rel_phase_deg": -166.1,
+   "group_delay_rel_ms": 90.6,
+   "trusted": false,
+   "rel_db_spread": null
+  }
+ ],
+ "caveats": [
+  "absolute delay not identifiable (minute timestamps); relative group delay is",
+  "frequencies marked trusted=false were not excited by any run",
+  "TX output assumed = divider output; amplitude not measured on the worn watch"
+ ]
+}

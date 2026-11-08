@@ -1,0 +1,122 @@
+{
+ "kind": "psk",
+ "run": "psk_d40_r2_20261107_174843",
+ "session": "psk_session_d40_40bps_fc16_rrc_20261107_174709",
+ "plan": {
+  "kind": "psk",
+  "version": "psk-x3",
+  "modulation": "dbpsk",
+  "bps": 40.0,
+  "baud": 40.0,
+  "sym_us": 25000,
+  "bits_per_symbol": 1,
+  "fc_hz": 16.0,
+  "shape": "rrc",
+  "beta": 0.5,
+  "alpha": 0.35,
+  "header": [
+   1,
+   0,
+   1,
+   0,
+   1,
+   1,
+   1,
+   0,
+   0,
+   1,
+   0
+  ],
+  "gap": [
+   0,
+   0
+  ],
+  "prbs_order": 7,
+  "frame_bits": 140,
+  "payload_bits": 127,
+  "frame_symbols": 140,
+  "frame_s": 3.5,
+  "frames": 16,
+  "lead_symbols": 8,
+  "tail_symbols": 2,
+  "n_symbols": 2250,
+  "total_s": 56.25,
+  "cycles_per_symbol": 0.4,
+  "payload_bps": 36.285714285714285
+ },
+ "condition": "worn-still",
+ "receiver": {
+  "version": "psk-x3",
+  "rules_sha": "04dbb95193d8",
+  "frozen_at": "2026-11-06 17:40",
+  "R_MIN": 0.7,
+  "G_MIN": 0.7,
+  "KNOWN_ERR_MAX": 1,
+  "CLOCK_PPM": 6000,
+  "CLOCK_WINDOW_PPM": 200,
+  "EQ_SPAN_S": 0.08,
+  "EQ_ITER": 3,
+  "LEAD_SYMS": 8,
+  "TAIL_SYMS": 2,
+  "PTS": 32,
+  "WL_CHANNEL": [
+   "linphase",
+   4,
+   1.0,
+   27.5
+  ],
+  "WL_ITER": 3,
+  "WL_RIDGE": 0.01,
+  "WL_CLOCK_REFINE_PPM": 150,
+  "WL_HYPOTHESES": 5,
+  "receivers": [
+   "x3-wl (decode_wl, primary)",
+   "x2-diff (decode)"
+  ]
+ },
+ "protocol_sha": "7536bf46a2f7",
+ "firmware": "# watch_psk_tx x2 board UNO-R4 dac A0 bits 12 update_us 250 max_syms 4096 max_pulse 513",
+ "cal": {
+  "vfull": 5.0,
+  "r1": 1000000.0,
+  "r2": 470.0,
+  "amp_mvpp": 2.0,
+  "tx_ppm": 0.0
+ },
+ "nominal": [
+  "vfull",
+  "r1",
+  "r2",
+  "amp_mvpp",
+  "tx_ppm"
+ ],
+ "voltage": {
+  "point": "watch ECG input electrodes: crown (signal) - back (ground)",
+  "status": "calculated",
+  "directly_measured": false,
+  "vpp_mv": 2.0,
+  "dc_mv": 1.17473480992627,
+  "basis": "DAC peak-to-peak for 2 mVpp x divider R1 1e+06 / R2 470 Ohm; nominal (not measured): vfull, r1, r2, amp_mvpp, tx_ppm"
+ },
+ "safety_review": "none: review gate removed at the operator's request (2026-11-07)",
+ "upload": {
+  "n_stored": 150,
+  "n_played": 2250,
+  "loop": [
+   8,
+   140,
+   16
+  ],
+  "checksum": 890015144.0,
+  "norm": 1.321533203125,
+  "span": 6,
+  "fc_mhz": 16000,
+  "sym_us": 25000,
+  "firmware": "# watch_psk_tx x2 board UNO-R4 dac A0 bits 12 update_us 250 max_syms 4096 max_pulse 513"
+ },
+ "t_go": 1794091729.8846936,
+ "t_go_local": "2026-11-07T17:48:49",
+ "done_reply": "# done symbols 2250",
+ "t_end": 1794091786.3713164,
+ "operator_note": "y"
+}

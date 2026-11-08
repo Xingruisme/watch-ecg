@@ -1,0 +1,109 @@
+{
+ "run": "ecg_synth_a0.03_ber_fsk_2bps_03",
+ "kind": "ber",
+ "condition": "a0.03",
+ "modulation": "fsk",
+ "bps": 2.0,
+ "f1_hz": 16.0,
+ "f0_hz": 8.0,
+ "amp_mvpp": 0.03,
+ "synthetic": true,
+ "usability": {
+  "duration_s": 29.5,
+  "bad_fraction": 0.0,
+  "usable": true,
+  "reason": ""
+ },
+ "quality": {
+  "rms_mv": 0.03358755625362837,
+  "ptp_mv": 0.16840000000000005,
+  "line_15.9805hz_db_over_floor": 28.39882262210218,
+  "line_7.99026hz_db_over_floor": 28.98968636044937,
+  "mains_50hz_db_over_floor": 26.134636563275254,
+  "mains_60hz_db_over_floor": 7.582223949704626,
+  "flat_runs_0p1s": 0
+ },
+ "blind": {
+  "frames_valid": 1,
+  "frames_sent": 1,
+  "bits": 15,
+  "errors": 0,
+  "ber": 0.0,
+  "ber_upper95": 0.2,
+  "ber_conservative": 0.0,
+  "errors_by_type": {
+   "sent1_read0": 0,
+   "sent0_read1": 0,
+   "in_bursts": 0
+  }
+ },
+ "v4_accounting": {
+  "frames_valid": 1,
+  "frames_sent": 1,
+  "bits": 15,
+  "errors": 0,
+  "ber": 0.0,
+  "ber_upper95": 0.2,
+  "ber_conservative": 0.0,
+  "errors_by_type": {
+   "sent1_read0": 0,
+   "sent0_read1": 0,
+   "in_bursts": 0
+  }
+ },
+ "decoder": "ecg-v1-experimental",
+ "rules_sha": "911e806cdfb5",
+ "frozen_at": null,
+ "clock_ppm": 1219.139379592806,
+ "residual_ppm": -199.99999999999997,
+ "line_snr_db": 24.946882596942153,
+ "header_score": 0.9947836397275888,
+ "tau_s": 12.916499999999976,
+ "frames_complete": 1,
+ "frames_expected": 1,
+ "guard_ms": 50.0,
+ "es_n0_db": 11.564983264865049,
+ "frames": [
+  {
+   "m": 0,
+   "s0": 12.916499999999976,
+   "r": 0.9918795246024995,
+   "bits": 15,
+   "errors": 0,
+   "ber": 0.0,
+   "thr": -0.05812252256987249,
+   "margin": 2.2640099665466,
+   "got": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   "valid": true,
+   "valid_v4": true
+  }
+ ],
+ "source": "pdf",
+ "synth_truth": {
+  "start_s": 29.103395370917053,
+  "clock_ppm": 1227.0,
+  "amp_mvpp": 0.03,
+  "white_uv": 10.0,
+  "mains_uv": 5.0,
+  "wander_uv": 30.0,
+  "heart_bpm": null,
+  "dropout_s": 0.0,
+  "no_signal": false
+ }
+}

@@ -1,0 +1,9 @@
+condition,modulation,bps,recordings,usable,bits,errors,ber,ci95_lo,ci95_hi,ber_conservative,frames_valid,frames_expected,es_n0_db_median,line_snr_db_median,clock_ppm_median,v4acc_errors,v4acc_bits,f1_hz,f0_hz,watch_v_status,watch_vpp_mv_median,watch_dc_mv_median,watch_vpp_calc_mv_median,watch_vpp_meas_mv_median,a0_f1_vpp_mv_median,a0_f1_floor_vpp_mv_median,a0_f1_detected,a0_dc_mv_median
+"worn-still, ard-baseline",fsk,2.0,1,1,15,0,0.0,0.0,0.218019360910534,0.0,1,1,31.0,26.5,3451.0,0,15,16.0,8.0,calculated,2.0,1.1747,,,,,0/0,
+"worn-still, ard-baseline",fsk,4.0,2,2,62,0,0.0,0.0,0.05776263442929093,0.0,2,2,12.85,27.15,3439.5,0,62,16.0,8.0,calculated,2.0,1.1747,2.0,,,,0/0,
+"worn-still, ard-baseline",fsk,8.0,1,1,126,0,0.0,0.0,0.028852406856721004,0.0,2,2,19.5,18.2,3361.0,0,126,16.0,8.0,calculated,2.0,1.1747,2.0,,,,0/0,
+"worn-still, ard-baseline",fsk,16.0,1,1,254,0,0.0,0.0,0.014418195244244383,0.0,2,2,16.2,21.4,3386.0,0,254,16.0,32.0,calculated,2.0,1.1747,2.0,,,,0/0,
+"worn-still, ard-baseline",ook,2.0,1,1,15,0,0.0,0.0,0.218019360910534,0.0,1,1,52.5,28.2,3451.0,0,15,16.0,,calculated,2.0,1.1747,,,,,0/0,
+"worn-still, ard-baseline",ook,4.0,2,2,124,0,0.0,0.0,0.029310881089774928,0.0,4,4,45.849999999999994,27.9,3419.0,0,124,16.0,,calculated,2.0,1.1747,2.0,,,,0/0,
+"worn-still, ard-baseline",ook,8.0,1,1,126,0,0.0,0.0,0.028852406856721004,0.0,2,2,40.6,19.6,3496.0,0,126,16.0,,calculated,2.0,1.1747,2.0,,,,0/0,
+"worn-still, ard-baseline",ook,16.0,1,1,381,0,0.0,0.0,0.00963537769705562,0.0,3,3,40.3,22.7,3321.0,0,381,16.0,,calculated,2.0,1.1747,2.0,,,,0/0,

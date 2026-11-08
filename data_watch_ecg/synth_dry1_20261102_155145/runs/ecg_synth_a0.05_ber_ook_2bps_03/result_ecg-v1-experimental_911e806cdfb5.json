@@ -1,0 +1,137 @@
+{
+ "run": "ecg_synth_a0.05_ber_ook_2bps_03",
+ "kind": "ber",
+ "condition": "a0.05",
+ "modulation": "ook",
+ "bps": 2.0,
+ "f1_hz": 16.0,
+ "f0_hz": 0.0,
+ "amp_mvpp": 0.05,
+ "synthetic": true,
+ "usability": {
+  "duration_s": 29.5,
+  "bad_fraction": 0.0,
+  "usable": true,
+  "reason": ""
+ },
+ "quality": {
+  "rms_mv": 0.033199480378081125,
+  "ptp_mv": 0.19580000000000014,
+  "line_15.98hz_db_over_floor": 32.528759535139685,
+  "mains_50hz_db_over_floor": 25.370248134017743,
+  "mains_60hz_db_over_floor": 6.7357749104697975,
+  "flat_runs_0p1s": 0
+ },
+ "blind": {
+  "frames_valid": 2,
+  "frames_sent": 2,
+  "bits": 30,
+  "errors": 0,
+  "ber": 0.0,
+  "ber_upper95": 0.1,
+  "ber_conservative": 0.0,
+  "errors_by_type": {
+   "sent1_read0": 0,
+   "sent0_read1": 0,
+   "in_bursts": 0
+  }
+ },
+ "v4_accounting": {
+  "frames_valid": 2,
+  "frames_sent": 2,
+  "bits": 30,
+  "errors": 0,
+  "ber": 0.0,
+  "ber_upper95": 0.1,
+  "ber_conservative": 0.0,
+  "errors_by_type": {
+   "sent1_read0": 0,
+   "sent0_read1": 0,
+   "in_bursts": 0
+  }
+ },
+ "decoder": "ecg-v1-experimental",
+ "rules_sha": "911e806cdfb5",
+ "frozen_at": null,
+ "clock_ppm": 1250.8595700599578,
+ "residual_ppm": -150.0,
+ "line_snr_db": 24.978193340438082,
+ "header_score": 0.9941211630377865,
+ "tau_s": 1.4582500000000027,
+ "frames_complete": 2,
+ "frames_expected": 2,
+ "guard_ms": 50.0,
+ "es_n0_db": 18.65291366415196,
+ "frames": [
+  {
+   "m": 0,
+   "s0": 1.4582500000000027,
+   "r": 0.9687911192753168,
+   "bits": 15,
+   "errors": 0,
+   "ber": 0.0,
+   "thr": 1.2570322443033828,
+   "margin": 1.5914592524823452,
+   "got": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   "valid": true,
+   "valid_v4": true
+  },
+  {
+   "m": 1,
+   "s0": 15.456150000000003,
+   "r": 0.998131203417233,
+   "bits": 15,
+   "errors": 0,
+   "ber": 0.0,
+   "thr": 1.2158937254831839,
+   "margin": 1.6438287538832692,
+   "got": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   "valid": true,
+   "valid_v4": true
+  }
+ ],
+ "source": "pdf",
+ "synth_truth": {
+  "start_s": 40.55757183019703,
+  "clock_ppm": 1227.0,
+  "amp_mvpp": 0.05,
+  "white_uv": 10.0,
+  "mains_uv": 5.0,
+  "wander_uv": 30.0,
+  "heart_bpm": null,
+  "dropout_s": 0.0,
+  "no_signal": false
+ }
+}

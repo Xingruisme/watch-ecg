@@ -1,0 +1,113 @@
+{
+ "session": "session_ard_b4_4bps_ard-baseline_20261106_141140",
+ "corrected": "20261106_150018",
+ "moves": {
+  "ecg_ard_b4_ber_ook_4bps_20261106_141150": "ecg_ard_b4_ber_fsk_4bps_20261106_141247",
+  "ecg_ard_b4_ber_fsk_4bps_20261106_141247": "ecg_ard_b4_ber_ook_4bps_20261106_141150"
+ },
+ "reason": "ingest assigned two PDFs with the same 'Recorded on' minute in file-name order",
+ "evidence": {
+  "ecg_ard_b4_ber_ook_4bps_20261106_141150": [
+   {
+    "run": "ecg_ard_b4_ber_ook_4bps_20261106_141150",
+    "modulation": "ook",
+    "tones_db": {
+     "16": 25.3
+    },
+    "foreign_db": {
+     "8": 25.8
+    },
+    "pattern_r": 0.828,
+    "start_tx_s": 11.17,
+    "start_local": "2026-11-06T14:12:02",
+    "pattern_r_per_tone": {
+     "16": 0.828
+    },
+    "starts_tx_s": [
+     11.17,
+     22.18,
+     33.18
+    ],
+    "frame_s": 11.0,
+    "clock_ppm": 3591,
+    "ok": false,
+    "why": "8 Hz present but this run does not send it (25.8 dB)"
+   },
+   {
+    "run": "ecg_ard_b4_ber_fsk_4bps_20261106_141247",
+    "modulation": "fsk",
+    "tones_db": {
+     "16": 25.3,
+     "8": 25.8
+    },
+    "foreign_db": {},
+    "pattern_r": 0.829,
+    "start_tx_s": 0.18,
+    "start_local": "2026-11-06T14:12:48",
+    "pattern_r_per_tone": {
+     "16": 0.829,
+     "8": 0.83
+    },
+    "starts_tx_s": [
+     0.18,
+     11.18
+    ],
+    "frame_s": 11.0,
+    "clock_ppm": 3591,
+    "ok": true,
+    "why": ""
+   }
+  ],
+  "ecg_ard_b4_ber_fsk_4bps_20261106_141247": [
+   {
+    "run": "ecg_ard_b4_ber_ook_4bps_20261106_141150",
+    "modulation": "ook",
+    "tones_db": {
+     "16": 25.4
+    },
+    "foreign_db": {
+     "8": -5.3
+    },
+    "pattern_r": 0.837,
+    "start_tx_s": 31.03,
+    "start_local": "2026-11-06T14:12:22",
+    "pattern_r_per_tone": {
+     "16": 0.837
+    },
+    "starts_tx_s": [
+     9.02,
+     20.02,
+     31.03
+    ],
+    "frame_s": 11.0,
+    "clock_ppm": 3591,
+    "ok": true,
+    "why": ""
+   },
+   {
+    "run": "ecg_ard_b4_ber_fsk_4bps_20261106_141247",
+    "modulation": "fsk",
+    "tones_db": {
+     "16": 25.4,
+     "8": -5.3
+    },
+    "foreign_db": {},
+    "pattern_r": 0.425,
+    "start_tx_s": 9.02,
+    "start_local": "2026-11-06T14:12:57",
+    "pattern_r_per_tone": {
+     "16": 0.836,
+     "8": 0.013
+    },
+    "starts_tx_s": [
+     9.02
+    ],
+    "frame_s": 11.0,
+    "clock_ppm": 3591,
+    "ok": false,
+    "why": "8 Hz missing (-5.3 dB); sent pattern not found in the allowed start window (r 0.42)"
+   }
+  ]
+ },
+ "old_files": "<run>/superseded_20261106_150018/"
+}

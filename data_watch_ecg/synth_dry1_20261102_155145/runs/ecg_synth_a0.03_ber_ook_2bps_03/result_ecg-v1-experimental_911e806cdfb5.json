@@ -1,0 +1,108 @@
+{
+ "run": "ecg_synth_a0.03_ber_ook_2bps_03",
+ "kind": "ber",
+ "condition": "a0.03",
+ "modulation": "ook",
+ "bps": 2.0,
+ "f1_hz": 16.0,
+ "f0_hz": 0.0,
+ "amp_mvpp": 0.03,
+ "synthetic": true,
+ "usability": {
+  "duration_s": 29.5,
+  "bad_fraction": 0.0,
+  "usable": true,
+  "reason": ""
+ },
+ "quality": {
+  "rms_mv": 0.03233571444782526,
+  "ptp_mv": 0.1797999999999999,
+  "line_15.9802hz_db_over_floor": 29.022597974235126,
+  "mains_50hz_db_over_floor": 25.862347573375292,
+  "mains_60hz_db_over_floor": 5.623904968404018,
+  "flat_runs_0p1s": 0
+ },
+ "blind": {
+  "frames_valid": 1,
+  "frames_sent": 1,
+  "bits": 15,
+  "errors": 0,
+  "ber": 0.0,
+  "ber_upper95": 0.2,
+  "ber_conservative": 0.0,
+  "errors_by_type": {
+   "sent1_read0": 0,
+   "sent0_read1": 0,
+   "in_bursts": 0
+  }
+ },
+ "v4_accounting": {
+  "frames_valid": 1,
+  "frames_sent": 1,
+  "bits": 15,
+  "errors": 0,
+  "ber": 0.0,
+  "ber_upper95": 0.2,
+  "ber_conservative": 0.0,
+  "errors_by_type": {
+   "sent1_read0": 0,
+   "sent0_read1": 0,
+   "in_bursts": 0
+  }
+ },
+ "decoder": "ecg-v1-experimental",
+ "rules_sha": "911e806cdfb5",
+ "frozen_at": null,
+ "clock_ppm": 1237.661695220363,
+ "residual_ppm": -119.99999999999999,
+ "line_snr_db": 31.154655779215904,
+ "header_score": 0.9812287597044076,
+ "tau_s": 7.57450000000001,
+ "frames_complete": 1,
+ "frames_expected": 1,
+ "guard_ms": 50.0,
+ "es_n0_db": 11.308969306515081,
+ "frames": [
+  {
+   "m": 0,
+   "s0": 7.57450000000001,
+   "r": 0.986742117458418,
+   "bits": 15,
+   "errors": 0,
+   "ber": 0.0,
+   "thr": 0.9044706868617967,
+   "margin": 1.3000717149755285,
+   "got": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   "valid": true,
+   "valid_v4": true
+  }
+ ],
+ "source": "pdf",
+ "synth_truth": {
+  "start_s": 48.433676094389305,
+  "clock_ppm": 1227.0,
+  "amp_mvpp": 0.03,
+  "white_uv": 10.0,
+  "mains_uv": 5.0,
+  "wander_uv": 30.0,
+  "heart_bpm": null,
+  "dropout_s": 0.0,
+  "no_signal": false
+ }
+}

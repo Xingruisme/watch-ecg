@@ -1,0 +1,108 @@
+{
+ "run": "ecg_synth_a0.02_ber_ook_2bps_00",
+ "kind": "ber",
+ "condition": "a0.02",
+ "modulation": "ook",
+ "bps": 2.0,
+ "f1_hz": 16.0,
+ "f0_hz": 0.0,
+ "amp_mvpp": 0.02,
+ "synthetic": true,
+ "usability": {
+  "duration_s": 29.5,
+  "bad_fraction": 0.0,
+  "usable": true,
+  "reason": ""
+ },
+ "quality": {
+  "rms_mv": 0.031923011856157875,
+  "ptp_mv": 0.16839999999999972,
+  "line_15.9788hz_db_over_floor": 25.39508563569713,
+  "mains_50hz_db_over_floor": 25.535862078229474,
+  "mains_60hz_db_over_floor": 5.62783407290274,
+  "flat_runs_0p1s": 0
+ },
+ "blind": {
+  "frames_valid": 1,
+  "frames_sent": 1,
+  "bits": 15,
+  "errors": 0,
+  "ber": 0.0,
+  "ber_upper95": 0.2,
+  "ber_conservative": 0.0,
+  "errors_by_type": {
+   "sent1_read0": 0,
+   "sent0_read1": 0,
+   "in_bursts": 0
+  }
+ },
+ "v4_accounting": {
+  "frames_valid": 1,
+  "frames_sent": 1,
+  "bits": 15,
+  "errors": 0,
+  "ber": 0.0,
+  "ber_upper95": 0.2,
+  "ber_conservative": 0.0,
+  "errors_by_type": {
+   "sent1_read0": 0,
+   "sent0_read1": 0,
+   "in_bursts": 0
+  }
+ },
+ "decoder": "ecg-v1-experimental",
+ "rules_sha": "911e806cdfb5",
+ "frozen_at": null,
+ "clock_ppm": 1324.012989399085,
+ "residual_ppm": 150.0,
+ "line_snr_db": 29.742202857959782,
+ "header_score": 0.9821892572262179,
+ "tau_s": 10.105999999999982,
+ "frames_complete": 1,
+ "frames_expected": 1,
+ "guard_ms": 50.0,
+ "es_n0_db": 6.903408018493023,
+ "frames": [
+  {
+   "m": 0,
+   "s0": 10.105999999999982,
+   "r": 0.9885616820294592,
+   "bits": 15,
+   "errors": 0,
+   "ber": 0.0,
+   "thr": 0.7810510877325416,
+   "margin": 0.8832883484154754,
+   "got": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   "valid": true,
+   "valid_v4": true
+  }
+ ],
+ "source": "pdf",
+ "synth_truth": {
+  "start_s": 31.899361791357233,
+  "clock_ppm": 1227.0,
+  "amp_mvpp": 0.02,
+  "white_uv": 10.0,
+  "mains_uv": 5.0,
+  "wander_uv": 30.0,
+  "heart_bpm": null,
+  "dropout_s": 0.0,
+  "no_signal": false
+ }
+}

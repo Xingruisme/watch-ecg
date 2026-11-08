@@ -1,0 +1,108 @@
+{
+ "run": "ecg_synth_a1_ber_ook_2bps_02",
+ "kind": "ber",
+ "condition": "a1",
+ "modulation": "ook",
+ "bps": 2.0,
+ "f1_hz": 16.0,
+ "f0_hz": 0.0,
+ "amp_mvpp": 1.0,
+ "synthetic": true,
+ "usability": {
+  "duration_s": 29.5,
+  "bad_fraction": 0.0,
+  "usable": true,
+  "reason": ""
+ },
+ "quality": {
+  "rms_mv": 0.24611462967551578,
+  "ptp_mv": 1.1600000000000001,
+  "line_15.9804hz_db_over_floor": 45.25661939954119,
+  "mains_50hz_db_over_floor": 12.456188434803561,
+  "mains_60hz_db_over_floor": -5.310100662961684,
+  "flat_runs_0p1s": 0
+ },
+ "blind": {
+  "frames_valid": 1,
+  "frames_sent": 1,
+  "bits": 15,
+  "errors": 0,
+  "ber": 0.0,
+  "ber_upper95": 0.2,
+  "ber_conservative": 0.0,
+  "errors_by_type": {
+   "sent1_read0": 0,
+   "sent0_read1": 0,
+   "in_bursts": 0
+  }
+ },
+ "v4_accounting": {
+  "frames_valid": 1,
+  "frames_sent": 1,
+  "bits": 15,
+  "errors": 0,
+  "ber": 0.0,
+  "ber_upper95": 0.2,
+  "ber_conservative": 0.0,
+  "errors_by_type": {
+   "sent1_read0": 0,
+   "sent0_read1": 0,
+   "in_bursts": 0
+  }
+ },
+ "decoder": "ecg-v1-experimental",
+ "rules_sha": "911e806cdfb5",
+ "frozen_at": null,
+ "clock_ppm": 1227.413170184075,
+ "residual_ppm": -119.99999999999999,
+ "line_snr_db": 28.545301488641623,
+ "header_score": 0.985662756263807,
+ "tau_s": 6.312250000000012,
+ "frames_complete": 1,
+ "frames_expected": 1,
+ "guard_ms": 50.0,
+ "es_n0_db": 45.74159214188295,
+ "frames": [
+  {
+   "m": 0,
+   "s0": 6.312250000000012,
+   "r": 0.9966654704070237,
+   "bits": 15,
+   "errors": 0,
+   "ber": 0.0,
+   "thr": 2.6380450452569977,
+   "margin": 4.351366074342589,
+   "got": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   "valid": true,
+   "valid_v4": true
+  }
+ ],
+ "source": "pdf",
+ "synth_truth": {
+  "start_s": 7.714909723301293,
+  "clock_ppm": 1227.0,
+  "amp_mvpp": 1.0,
+  "white_uv": 10.0,
+  "mains_uv": 5.0,
+  "wander_uv": 30.0,
+  "heart_bpm": null,
+  "dropout_s": 0.0,
+  "no_signal": false
+ }
+}

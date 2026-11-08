@@ -1,0 +1,3 @@
+condition,modulation,bps,recordings,usable,bits,errors,ber,ci95_lo,ci95_hi,ber_conservative,frames_valid,frames_expected,es_n0_db_median,line_snr_db_median,clock_ppm_median,v4acc_errors,v4acc_bits,f1_hz,f0_hz,watch_v_status,watch_vpp_mv_median,watch_dc_mv_median,watch_vpp_calc_mv_median,watch_vpp_meas_mv_median,a0_f1_vpp_mv_median,a0_f1_floor_vpp_mv_median,a0_f1_detected,a0_dc_mv_median
+"worn-still, ard-baseline",fsk,2.0,1,1,15,0,0.0,0.0,0.218019360910534,0.0,1,1,31.0,26.5,3451.0,0,15,16.0,8.0,calculated,2.0,1.1747,,,,,0/0,
+"worn-still, ard-baseline",ook,2.0,1,1,15,0,0.0,0.0,0.218019360910534,0.0,1,1,52.5,28.2,3451.0,0,15,16.0,,calculated,2.0,1.1747,,,,,0/0,

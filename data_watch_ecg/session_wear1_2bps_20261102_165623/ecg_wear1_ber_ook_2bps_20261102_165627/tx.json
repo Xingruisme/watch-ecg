@@ -1,0 +1,102 @@
+{
+ "kind": "ber",
+ "label": "wear1",
+ "condition": "worn-still",
+ "plan": {
+  "kind": "ber",
+  "modulation": "ook",
+  "bps": 2.0,
+  "bit_us": 500000,
+  "f1_hz": 16.0,
+  "f0_hz": 0.0,
+  "f1_actual_hz": 16.01874828338623,
+  "f0_actual_hz": 0.0,
+  "f1_line_hz": 16.0,
+  "f0_line_hz": 0.0,
+  "cycles_per_bit": [
+   8.009
+  ],
+  "phase_continuous": true,
+  "header": [
+   1,
+   0,
+   1,
+   0,
+   1,
+   1,
+   1,
+   0,
+   0,
+   1,
+   0
+  ],
+  "gap": [
+   0,
+   0
+  ],
+  "prbs_order": 4,
+  "frame_bits": 28,
+  "payload_bits": 15,
+  "frame_s": 14.0,
+  "frames": 5,
+  "total_s": 70.0,
+  "n_steps": 140,
+  "wave": "sine"
+ },
+ "amp_mvpp": null,
+ "contact": "worn",
+ "approval": null,
+ "interface": "same TX setup as the maXTouch through-body runs",
+ "transmitter": {
+  "line": "TeensyTRX - galvanic transceiver (Teensy 4.0, RX pin 14 = A0, AD9833 FSYNC 10 / SDATA 11 / SCLK 13)"
+ },
+ "synthetic": false,
+ "session": "session_wear1_2bps_20261102_165623",
+ "decoder_sha": "b422eaa49c6a",
+ "schedule": {
+  "step_us": 500000,
+  "reps": 5,
+  "words": [
+   172,
+   0,
+   172,
+   0,
+   172,
+   172,
+   172,
+   0,
+   0,
+   172,
+   0,
+   172,
+   172,
+   172,
+   172,
+   0,
+   0,
+   0,
+   172,
+   0,
+   0,
+   172,
+   172,
+   0,
+   172,
+   0,
+   0,
+   0
+  ],
+  "checksum": 502433
+ },
+ "upload": {
+  "segs": 1,
+  "words": 28,
+  "events": 140,
+  "total_us": 70000000,
+  "checksum": 502433
+ },
+ "t_go": 1793656588.2905018,
+ "go_reply": "# sweep armed in 500 ms",
+ "t_go_local": "2026-11-02T16:56:28",
+ "t_end": 1793656625.1175926
+}

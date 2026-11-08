@@ -1,0 +1,126 @@
+{
+ "kind": "psk_session",
+ "label": "d40b",
+ "created": "2026-11-07T20:29:46",
+ "condition": "worn-still",
+ "plan": {
+  "kind": "psk",
+  "version": "psk-x3",
+  "modulation": "dbpsk",
+  "bps": 40.0,
+  "baud": 40.0,
+  "sym_us": 25000,
+  "bits_per_symbol": 1,
+  "fc_hz": 16.0,
+  "shape": "rrc",
+  "beta": 0.5,
+  "alpha": 0.35,
+  "header": [
+   1,
+   0,
+   1,
+   0,
+   1,
+   1,
+   1,
+   0,
+   0,
+   1,
+   0
+  ],
+  "gap": [
+   0,
+   0
+  ],
+  "prbs_order": 7,
+  "frame_bits": 140,
+  "payload_bits": 127,
+  "frame_symbols": 140,
+  "frame_s": 3.5,
+  "frames": 16,
+  "lead_symbols": 8,
+  "tail_symbols": 2,
+  "n_symbols": 2250,
+  "total_s": 56.25,
+  "cycles_per_symbol": 0.4,
+  "payload_bps": 36.285714285714285
+ },
+ "receiver": {
+  "version": "psk-x3",
+  "rules_sha": "04dbb95193d8",
+  "frozen_at": "2026-11-06 17:40",
+  "R_MIN": 0.7,
+  "G_MIN": 0.7,
+  "KNOWN_ERR_MAX": 1,
+  "CLOCK_PPM": 6000,
+  "CLOCK_WINDOW_PPM": 200,
+  "EQ_SPAN_S": 0.08,
+  "EQ_ITER": 3,
+  "LEAD_SYMS": 8,
+  "TAIL_SYMS": 2,
+  "PTS": 32,
+  "WL_CHANNEL": [
+   "linphase",
+   4,
+   1.0,
+   27.5
+  ],
+  "WL_ITER": 3,
+  "WL_RIDGE": 0.01,
+  "WL_CLOCK_REFINE_PPM": 150,
+  "WL_HYPOTHESES": 5,
+  "receivers": [
+   "x3-wl (decode_wl, primary)",
+   "x2-diff (decode)"
+  ]
+ },
+ "protocol_sha": "340de6eed698",
+ "safety_review": "none: review gate removed at the operator's request (2026-11-07)",
+ "cal": {
+  "vfull": 5.0,
+  "r1": 1000000.0,
+  "r2": 470.0,
+  "amp_mvpp": 2.0,
+  "tx_ppm": 0.0
+ },
+ "cal_source": {
+  "vfull": "nominal default",
+  "r1": "nominal default",
+  "r2": "nominal default",
+  "amp_mvpp": "nominal default",
+  "tx_ppm": "nominal default"
+ },
+ "nominal": [
+  "vfull",
+  "r1",
+  "r2",
+  "amp_mvpp",
+  "tx_ppm"
+ ],
+ "voltage": {
+  "point": "watch ECG input electrodes: crown (signal) - back (ground)",
+  "status": "calculated",
+  "directly_measured": false,
+  "vpp_mv": 2.0,
+  "dc_mv": 1.17473480992627,
+  "basis": "DAC peak-to-peak for 2 mVpp x divider R1 1e+06 / R2 470 Ohm; nominal (not measured): vfull, r1, r2, amp_mvpp, tx_ppm"
+ },
+ "runs": [
+  "psk_d40b_r1_20261107_202946",
+  "psk_d40b_r2_20261107_203108"
+ ],
+ "firmware": "# watch_psk_tx x2 board UNO-R4 dac A0 bits 12 update_us 250 max_syms 4096 max_pulse 513",
+ "tx_cfg": {
+  "vfull": 5.0,
+  "rtop": 1000000.0,
+  "rbot": 470.0,
+  "amp_mvpp": 2.0,
+  "dac_vpp": 4.2573,
+  "dc_mv": 1.1747,
+  "clk_ppm": 0.0,
+  "update_us": 250.0,
+  "limit_mvpp": 10.0,
+  "firmware": "# watch_psk_tx x2 board UNO-R4 dac A0 bits 12 update_us 250 max_syms 4096 max_pulse 513",
+  "port": "/dev/ttyACM0"
+ }
+}

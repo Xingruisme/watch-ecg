@@ -1,0 +1,63 @@
+{
+ "source": "pdf",
+ "file": "/home/semanticsignals/Downloads/ard_b16/semanticsignals_ECGReport_06 Nov 2026_16-05_16bpsook.pdf",
+ "checks": {
+  "layout": "scaled rows (Pixel Watch app export)",
+  "rows": 4,
+  "matrix_scale": 4.0297422,
+  "raw_units_per_mm_time": 2.999989999999997,
+  "raw_units_per_mm_cal": 3.0,
+  "y_axis": "down",
+  "row_order": "boundary-sample chain",
+  "row_seconds": 8.0,
+  "lattice_offset_samples": 0.006726689091465232,
+  "duplicate_points": 3,
+  "gaps": [],
+  "cal_baseline_raw": 45.5,
+  "units_per_s": 74.99974999999992,
+  "units_per_mv": 29.99989999999997
+ },
+ "mm_per_s": 25.0,
+ "mm_per_mv": 10.0,
+ "fs_hz": 250.0,
+ "recorded_on": "Nov 6, 2026, 4:03 PM",
+ "feature_version": "6-3.1-2.19-3.2",
+ "hardware": "Google Pixel Watch 2",
+ "os_version": "4.0.0",
+ "classification": "Inconclusive",
+ "first_sample_s_on_page": 0.5,
+ "samples": 7376,
+ "imported": "2026-11-06T16:07:59",
+ "original": "/home/semanticsignals/Downloads/ard_b16/semanticsignals_ECGReport_06 Nov 2026_16-05_16bpsook.pdf",
+ "pairing": {
+  "method": "time",
+  "evidence": [
+   {
+    "run": "ecg_ard_b16_ber_ook_16bps_20261106_160325",
+    "modulation": "ook",
+    "tones_db": {
+     "16": 27.6
+    },
+    "foreign_db": {},
+    "pattern_r": 0.411,
+    "start_tx_s": -9.45,
+    "start_local": "2026-11-06T16:03:16",
+    "pattern_r_per_tone": {
+     "16": 0.411
+    },
+    "starts_tx_s": [
+     -9.45,
+     -0.66,
+     8.07,
+     16.82,
+     25.57,
+     34.33
+    ],
+    "frame_s": 8.75,
+    "clock_ppm": 3324,
+    "ok": false,
+    "why": "sent pattern not found in the allowed start window (r 0.41)"
+   }
+  ]
+ }
+}

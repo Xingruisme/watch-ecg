@@ -1,0 +1,52 @@
+{"mod": "ook", "bps": 2, "f1": 16, "f0": null, "ch": "measured", "n": 8, "seed": 7, "amps": [0.1, 0.05, 0.03, 0.02, 0.015, 0.01]}
+{"mod": "ook", "bps": 2, "f1": 16, "f0": null, "ch": "measured", "n": 8, "seed": 7, "amps": [2.0, 0.5, 0.2], "heart": 70}
+{"mod": "ook", "bps": 2, "f1": 10, "f0": null, "ch": "measured", "n": 8, "seed": 7, "amps": [0.1, 0.05, 0.03, 0.02, 0.015, 0.01]}
+{"mod": "ook", "bps": 2, "f1": 10, "f0": null, "ch": "measured", "n": 8, "seed": 7, "amps": [2.0, 0.5, 0.2], "heart": 70}
+{"mod": "ook", "bps": 2, "f1": 8, "f0": null, "ch": "measured", "n": 8, "seed": 7, "amps": [0.1, 0.05, 0.03, 0.02, 0.015, 0.01]}
+{"mod": "ook", "bps": 2, "f1": 8, "f0": null, "ch": "measured", "n": 8, "seed": 7, "amps": [2.0, 0.5, 0.2], "heart": 70}
+{"mod": "ook", "bps": 2, "f1": 6, "f0": null, "ch": "measured", "n": 8, "seed": 7, "amps": [0.1, 0.05, 0.03, 0.02, 0.015, 0.01]}
+{"mod": "ook", "bps": 2, "f1": 6, "f0": null, "ch": "measured", "n": 8, "seed": 7, "amps": [2.0, 0.5, 0.2], "heart": 70}
+{"mod": "fsk", "bps": 2, "f1": 16, "f0": 8, "ch": "measured", "n": 8, "seed": 7, "amps": [0.1, 0.05, 0.03, 0.02, 0.015, 0.01]}
+{"mod": "fsk", "bps": 2, "f1": 16, "f0": 8, "ch": "measured", "n": 8, "seed": 7, "amps": [2.0, 0.5, 0.2], "heart": 70}
+{"mod": "fsk", "bps": 2, "f1": 10, "f0": 6, "ch": "measured", "n": 8, "seed": 7, "amps": [0.1, 0.05, 0.03, 0.02, 0.015, 0.01]}
+{"mod": "fsk", "bps": 2, "f1": 10, "f0": 6, "ch": "measured", "n": 8, "seed": 7, "amps": [2.0, 0.5, 0.2], "heart": 70}
+{"mod": "fsk", "bps": 2, "f1": 8, "f0": 4, "ch": "measured", "n": 8, "seed": 7, "amps": [0.1, 0.05, 0.03, 0.02, 0.015, 0.01]}
+{"mod": "fsk", "bps": 2, "f1": 8, "f0": 4, "ch": "measured", "n": 8, "seed": 7, "amps": [2.0, 0.5, 0.2], "heart": 70}
+{"mod": "fsk", "bps": 2, "f1": 12, "f0": 8, "ch": "measured", "n": 8, "seed": 7, "amps": [0.1, 0.05, 0.03, 0.02, 0.015, 0.01]}
+{"mod": "fsk", "bps": 2, "f1": 12, "f0": 8, "ch": "measured", "n": 8, "seed": 7, "amps": [2.0, 0.5, 0.2], "heart": 70}
+{"mod": "fsk", "bps": 2, "f1": 12, "f0": 4, "ch": "measured", "n": 8, "seed": 7, "amps": [0.1, 0.05, 0.03, 0.02, 0.015, 0.01]}
+{"mod": "fsk", "bps": 2, "f1": 12, "f0": 4, "ch": "measured", "n": 8, "seed": 7, "amps": [2.0, 0.5, 0.2], "heart": 70}
+{"mod": "ook", "bps": 4, "f1": 16, "f0": null, "ch": "measured", "n": 8, "seed": 7, "amps": [0.1, 0.05, 0.03, 0.02, 0.015, 0.01]}
+{"mod": "ook", "bps": 4, "f1": 16, "f0": null, "ch": "measured", "n": 8, "seed": 7, "amps": [2.0, 0.5, 0.2], "heart": 70}
+{"mod": "ook", "bps": 4, "f1": 12, "f0": null, "ch": "measured", "n": 8, "seed": 7, "amps": [0.1, 0.05, 0.03, 0.02, 0.015, 0.01]}
+{"mod": "ook", "bps": 4, "f1": 12, "f0": null, "ch": "measured", "n": 8, "seed": 7, "amps": [2.0, 0.5, 0.2], "heart": 70}
+{"mod": "ook", "bps": 4, "f1": 8, "f0": null, "ch": "measured", "n": 8, "seed": 7, "amps": [0.1, 0.05, 0.03, 0.02, 0.015, 0.01]}
+{"mod": "ook", "bps": 4, "f1": 8, "f0": null, "ch": "measured", "n": 8, "seed": 7, "amps": [2.0, 0.5, 0.2], "heart": 70}
+{"mod": "fsk", "bps": 4, "f1": 16, "f0": 8, "ch": "measured", "n": 8, "seed": 7, "amps": [0.1, 0.05, 0.03, 0.02, 0.015, 0.01]}
+{"mod": "fsk", "bps": 4, "f1": 16, "f0": 8, "ch": "measured", "n": 8, "seed": 7, "amps": [2.0, 0.5, 0.2], "heart": 70}
+{"mod": "fsk", "bps": 4, "f1": 12, "f0": 4, "ch": "measured", "n": 8, "seed": 7, "amps": [0.1, 0.05, 0.03, 0.02, 0.015, 0.01]}
+{"mod": "fsk", "bps": 4, "f1": 12, "f0": 4, "ch": "measured", "n": 8, "seed": 7, "amps": [2.0, 0.5, 0.2], "heart": 70}
+{"mod": "fsk", "bps": 4, "f1": 12, "f0": 8, "ch": "measured", "n": 8, "seed": 7, "amps": [0.1, 0.05, 0.03, 0.02, 0.015, 0.01]}
+{"mod": "fsk", "bps": 4, "f1": 12, "f0": 8, "ch": "measured", "n": 8, "seed": 7, "amps": [2.0, 0.5, 0.2], "heart": 70}
+{"mod": "fsk", "bps": 4, "f1": 8, "f0": 4, "ch": "measured", "n": 8, "seed": 7, "amps": [0.1, 0.05, 0.03, 0.02, 0.015, 0.01]}
+{"mod": "fsk", "bps": 4, "f1": 8, "f0": 4, "ch": "measured", "n": 8, "seed": 7, "amps": [2.0, 0.5, 0.2], "heart": 70}
+{"mod": "ook", "bps": 8, "f1": 16, "f0": null, "ch": "measured", "n": 8, "seed": 7, "amps": [0.1, 0.05, 0.03, 0.02, 0.015, 0.01]}
+{"mod": "ook", "bps": 8, "f1": 16, "f0": null, "ch": "measured", "n": 8, "seed": 7, "amps": [2.0, 0.5, 0.2], "heart": 70}
+{"mod": "ook", "bps": 8, "f1": 24, "f0": null, "ch": "measured", "n": 8, "seed": 7, "amps": [0.1, 0.05, 0.03, 0.02, 0.015, 0.01]}
+{"mod": "ook", "bps": 8, "f1": 24, "f0": null, "ch": "measured", "n": 8, "seed": 7, "amps": [2.0, 0.5, 0.2], "heart": 70}
+{"mod": "ook", "bps": 8, "f1": 8, "f0": null, "ch": "measured", "n": 8, "seed": 7, "amps": [0.1, 0.05, 0.03, 0.02, 0.015, 0.01]}
+{"mod": "ook", "bps": 8, "f1": 8, "f0": null, "ch": "measured", "n": 8, "seed": 7, "amps": [2.0, 0.5, 0.2], "heart": 70}
+{"mod": "fsk", "bps": 8, "f1": 16, "f0": 8, "ch": "measured", "n": 8, "seed": 7, "amps": [0.1, 0.05, 0.03, 0.02, 0.015, 0.01]}
+{"mod": "fsk", "bps": 8, "f1": 16, "f0": 8, "ch": "measured", "n": 8, "seed": 7, "amps": [2.0, 0.5, 0.2], "heart": 70}
+{"mod": "fsk", "bps": 8, "f1": 24, "f0": 8, "ch": "measured", "n": 8, "seed": 7, "amps": [0.1, 0.05, 0.03, 0.02, 0.015, 0.01]}
+{"mod": "fsk", "bps": 8, "f1": 24, "f0": 8, "ch": "measured", "n": 8, "seed": 7, "amps": [2.0, 0.5, 0.2], "heart": 70}
+{"mod": "fsk", "bps": 8, "f1": 16, "f0": 24, "ch": "measured", "n": 8, "seed": 7, "amps": [0.1, 0.05, 0.03, 0.02, 0.015, 0.01]}
+{"mod": "fsk", "bps": 8, "f1": 16, "f0": 24, "ch": "measured", "n": 8, "seed": 7, "amps": [2.0, 0.5, 0.2], "heart": 70}
+{"mod": "ook", "bps": 16, "f1": 16, "f0": null, "ch": "measured", "n": 8, "seed": 7, "amps": [0.1, 0.05, 0.03, 0.02, 0.015, 0.01]}
+{"mod": "ook", "bps": 16, "f1": 16, "f0": null, "ch": "measured", "n": 8, "seed": 7, "amps": [2.0, 0.5, 0.2], "heart": 70}
+{"mod": "ook", "bps": 16, "f1": 32, "f0": null, "ch": "measured", "n": 8, "seed": 7, "amps": [0.1, 0.05, 0.03, 0.02, 0.015, 0.01]}
+{"mod": "ook", "bps": 16, "f1": 32, "f0": null, "ch": "measured", "n": 8, "seed": 7, "amps": [2.0, 0.5, 0.2], "heart": 70}
+{"mod": "fsk", "bps": 16, "f1": 16, "f0": 32, "ch": "measured", "n": 8, "seed": 7, "amps": [0.1, 0.05, 0.03, 0.02, 0.015, 0.01]}
+{"mod": "fsk", "bps": 16, "f1": 16, "f0": 32, "ch": "measured", "n": 8, "seed": 7, "amps": [2.0, 0.5, 0.2], "heart": 70}
+{"mod": "fsk", "bps": 16, "f1": 16, "f0": 48, "ch": "measured", "n": 8, "seed": 7, "amps": [0.1, 0.05, 0.03, 0.02, 0.015, 0.01]}
+{"mod": "fsk", "bps": 16, "f1": 16, "f0": 48, "ch": "measured", "n": 8, "seed": 7, "amps": [2.0, 0.5, 0.2], "heart": 70}

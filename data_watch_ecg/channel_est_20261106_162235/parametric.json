@@ -1,0 +1,282 @@
+[
+ {
+  "explained": 0.9487733392777029,
+  "kind": "linphase",
+  "order": 4,
+  "fh": 1.0,
+  "fl": 27.5
+ },
+ {
+  "explained": 0.9486864870125313,
+  "kind": "linphase",
+  "order": 4,
+  "fh": 1.0,
+  "fl": 25.0
+ },
+ {
+  "explained": 0.9480905998670142,
+  "kind": "linphase",
+  "order": 4,
+  "fh": 0.5,
+  "fl": 27.5
+ },
+ {
+  "explained": 0.9478921306207833,
+  "kind": "minphase",
+  "order": 2,
+  "fh": 1.0,
+  "fl": 22.5
+ },
+ {
+  "explained": 0.9478899795511765,
+  "kind": "linphase",
+  "order": 4,
+  "fh": 0.5,
+  "fl": 25.0
+ },
+ {
+  "explained": 0.9478409778722646,
+  "kind": "minphase",
+  "order": 2,
+  "fh": 0.5,
+  "fl": 25.0
+ },
+ {
+  "explained": 0.9477536818859351,
+  "kind": "linphase",
+  "order": 4,
+  "fh": 1.0,
+  "fl": 30.0
+ },
+ {
+  "explained": 0.9477023923167768,
+  "kind": "minphase",
+  "order": 2,
+  "fh": 0.5,
+  "fl": 22.5
+ },
+ {
+  "explained": 0.9474976067531272,
+  "kind": "linphase",
+  "order": 6,
+  "fh": 1.0,
+  "fl": 27.5
+ },
+ {
+  "explained": 0.9471422203537594,
+  "kind": "linphase",
+  "order": 4,
+  "fh": 0.5,
+  "fl": 30.0
+ },
+ {
+  "explained": 0.9469592088105683,
+  "kind": "linphase",
+  "order": 6,
+  "fh": 0.5,
+  "fl": 27.5
+ },
+ {
+  "explained": 0.9469430406653081,
+  "kind": "linphase",
+  "order": 6,
+  "fh": 1.0,
+  "fl": 25.0
+ },
+ {
+  "explained": 0.9468769554709587,
+  "kind": "minphase",
+  "order": 2,
+  "fh": 0.5,
+  "fl": 20.0
+ },
+ {
+  "explained": 0.946690810312423,
+  "kind": "linphase",
+  "order": 6,
+  "fh": 1.0,
+  "fl": 30.0
+ },
+ {
+  "explained": 0.9463916139795264,
+  "kind": "linphase",
+  "order": 4,
+  "fh": 1.0,
+  "fl": 22.5
+ },
+ {
+  "explained": 0.9463270588430964,
+  "kind": "linphase",
+  "order": 2,
+  "fh": 1.0,
+  "fl": 30.0
+ },
+ {
+  "explained": 0.9463223713119077,
+  "kind": "linphase",
+  "order": 6,
+  "fh": 0.5,
+  "fl": 25.0
+ },
+ {
+  "explained": 0.9463150132735189,
+  "kind": "linphase",
+  "order": 2,
+  "fh": 1.0,
+  "fl": 27.5
+ },
+ {
+  "explained": 0.9462026031457712,
+  "kind": "linphase",
+  "order": 4,
+  "fh": 1.0,
+  "fl": 32.5
+ },
+ {
+  "explained": 0.946192797822749,
+  "kind": "linphase",
+  "order": 6,
+  "fh": 0.5,
+  "fl": 30.0
+ },
+ {
+  "explained": 0.9460984236275166,
+  "kind": "linphase",
+  "order": 8,
+  "fh": 1.0,
+  "fl": 27.5
+ },
+ {
+  "explained": 0.945961798608522,
+  "kind": "linphase",
+  "order": 2,
+  "fh": 1.0,
+  "fl": 32.5
+ },
+ {
+  "explained": 0.9459588369110535,
+  "kind": "minphase",
+  "order": 2,
+  "fh": 1.0,
+  "fl": 20.0
+ },
+ {
+  "explained": 0.9459107716591888,
+  "kind": "linphase",
+  "order": 8,
+  "fh": 1.0,
+  "fl": 30.0
+ },
+ {
+  "explained": 0.9456672813138614,
+  "kind": "linphase",
+  "order": 2,
+  "fh": 1.0,
+  "fl": 25.0
+ },
+ {
+  "explained": 0.9456353397678903,
+  "kind": "linphase",
+  "order": 4,
+  "fh": 0.5,
+  "fl": 32.5
+ },
+ {
+  "explained": 0.9456149230355207,
+  "kind": "linphase",
+  "order": 8,
+  "fh": 0.5,
+  "fl": 27.5
+ },
+ {
+  "explained": 0.9454481039576568,
+  "kind": "linphase",
+  "order": 8,
+  "fh": 0.5,
+  "fl": 30.0
+ },
+ {
+  "explained": 0.9454142387228941,
+  "kind": "linphase",
+  "order": 4,
+  "fh": 0.5,
+  "fl": 22.5
+ },
+ {
+  "explained": 0.9454035655208551,
+  "kind": "linphase",
+  "order": 2,
+  "fh": 0.5,
+  "fl": 30.0
+ },
+ {
+  "explained": 0.9453806154825943,
+  "kind": "linphase",
+  "order": 2,
+  "fh": 1.0,
+  "fl": 35.0
+ },
+ {
+  "explained": 0.9453024027351002,
+  "kind": "linphase",
+  "order": 2,
+  "fh": 0.5,
+  "fl": 27.5
+ },
+ {
+  "explained": 0.9451081219020199,
+  "kind": "linphase",
+  "order": 2,
+  "fh": 0.5,
+  "fl": 32.5
+ },
+ {
+  "explained": 0.9450014749558824,
+  "kind": "minphase",
+  "order": 2,
+  "fh": 1.0,
+  "fl": 27.5
+ },
+ {
+  "explained": 0.9449189805942666,
+  "kind": "linphase",
+  "order": 6,
+  "fh": 1.0,
+  "fl": 32.5
+ },
+ {
+  "explained": 0.9446962581604784,
+  "kind": "minphase",
+  "order": 2,
+  "fh": 1.0,
+  "fl": 25.0
+ },
+ {
+  "explained": 0.944684827215681,
+  "kind": "linphase",
+  "order": 2,
+  "fh": 1.0,
+  "fl": 37.5
+ },
+ {
+  "explained": 0.9446791523975216,
+  "kind": "linphase",
+  "order": 8,
+  "fh": 1.0,
+  "fl": 25.0
+ },
+ {
+  "explained": 0.9445824553020737,
+  "kind": "linphase",
+  "order": 2,
+  "fh": 0.5,
+  "fl": 35.0
+ },
+ {
+  "explained": 0.9445819561170712,
+  "kind": "linphase",
+  "order": 4,
+  "fh": 2.0,
+  "fl": 25.0
+ }
+]

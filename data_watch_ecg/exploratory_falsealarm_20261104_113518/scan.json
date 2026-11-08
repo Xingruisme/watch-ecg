@@ -1,0 +1,110 @@
+{
+ "created": "2026-11-04T11:43:16",
+ "decoder": "ecg-v1",
+ "rules_sha": "b422eaa49c6a",
+ "seed": 20261104,
+ "n": 100,
+ "noise": {
+  "white_uv": 10.0,
+  "mains_uv": 5.0,
+  "wander_uv": 30.0
+ },
+ "cells": [
+  {
+   "modulation": "ook",
+   "bps": 2.0,
+   "n": 100,
+   "line_snr_ge_6db": 45,
+   "usable": 45,
+   "usable_with_valid_frame": 13,
+   "valid_frames": 13,
+   "frames": 46,
+   "ber_of_false_frames": 0.5435897435897435,
+   "line_snr_db_median": 4.8431864505197755
+  },
+  {
+   "modulation": "ook",
+   "bps": 4.0,
+   "n": 100,
+   "line_snr_ge_6db": 37,
+   "usable": 37,
+   "usable_with_valid_frame": 15,
+   "valid_frames": 15,
+   "frames": 60,
+   "ber_of_false_frames": 0.5161290322580645,
+   "line_snr_db_median": 4.8484091229440445
+  },
+  {
+   "modulation": "ook",
+   "bps": 8.0,
+   "n": 100,
+   "line_snr_ge_6db": 38,
+   "usable": 38,
+   "usable_with_valid_frame": 20,
+   "valid_frames": 24,
+   "frames": 80,
+   "ber_of_false_frames": 0.4933862433862434,
+   "line_snr_db_median": 4.549255724845315
+  },
+  {
+   "modulation": "ook",
+   "bps": 16.0,
+   "n": 100,
+   "line_snr_ge_6db": 41,
+   "usable": 41,
+   "usable_with_valid_frame": 26,
+   "valid_frames": 28,
+   "frames": 87,
+   "ber_of_false_frames": 0.4921259842519685,
+   "line_snr_db_median": 4.165541904847141
+  },
+  {
+   "modulation": "fsk",
+   "bps": 2.0,
+   "n": 100,
+   "line_snr_ge_6db": 29,
+   "usable": 29,
+   "usable_with_valid_frame": 11,
+   "valid_frames": 12,
+   "frames": 32,
+   "ber_of_false_frames": 0.46111111111111114,
+   "line_snr_db_median": 3.700217520225187
+  },
+  {
+   "modulation": "fsk",
+   "bps": 4.0,
+   "n": 100,
+   "line_snr_ge_6db": 24,
+   "usable": 24,
+   "usable_with_valid_frame": 11,
+   "valid_frames": 12,
+   "frames": 33,
+   "ber_of_false_frames": 0.48655913978494625,
+   "line_snr_db_median": 3.3260383845624597
+  },
+  {
+   "modulation": "fsk",
+   "bps": 8.0,
+   "n": 100,
+   "line_snr_ge_6db": 17,
+   "usable": 17,
+   "usable_with_valid_frame": 5,
+   "valid_frames": 5,
+   "frames": 35,
+   "ber_of_false_frames": 0.5238095238095238,
+   "line_snr_db_median": 2.4621079676012627
+  },
+  {
+   "modulation": "fsk",
+   "bps": 16.0,
+   "n": 100,
+   "line_snr_ge_6db": 28,
+   "usable": 28,
+   "usable_with_valid_frame": 16,
+   "valid_frames": 20,
+   "frames": 62,
+   "ber_of_false_frames": 0.5023622047244094,
+   "line_snr_db_median": 4.177768301720928
+  }
+ ]
+}

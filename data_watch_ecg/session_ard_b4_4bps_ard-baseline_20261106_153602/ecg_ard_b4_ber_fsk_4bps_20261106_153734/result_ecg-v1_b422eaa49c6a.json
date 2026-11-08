@@ -1,0 +1,143 @@
+{
+ "run": "ecg_ard_b4_ber_fsk_4bps_20261106_153734",
+ "kind": "ber",
+ "condition": "worn-still, ard-baseline",
+ "modulation": "fsk",
+ "bps": 4.0,
+ "f1_hz": 16.0,
+ "f0_hz": 8.0,
+ "amp_mvpp": 2.0,
+ "synthetic": false,
+ "usability": {
+  "duration_s": 29.504,
+  "bad_fraction": 0.0,
+  "usable": true,
+  "reason": ""
+ },
+ "quality": {
+  "rms_mv": 0.6304389487949561,
+  "ptp_mv": 3.285031983439948,
+  "line_15.9464hz_db_over_floor": 46.45250496915146,
+  "line_7.97321hz_db_over_floor": 48.44180150208444,
+  "mains_50hz_db_over_floor": 1.8433153845733494,
+  "mains_60hz_db_over_floor": -17.769670749608387,
+  "flat_runs_0p1s": 0
+ },
+ "blind": {
+  "frames_valid": 1,
+  "frames_sent": 1,
+  "bits": 31,
+  "errors": 0,
+  "ber": 0.0,
+  "ber_upper95": 0.0967741935483871,
+  "ber_conservative": 0.0,
+  "errors_by_type": {
+   "sent1_read0": 0,
+   "sent0_read1": 0,
+   "in_bursts": 0
+  }
+ },
+ "v4_accounting": {
+  "frames_valid": 1,
+  "frames_sent": 1,
+  "bits": 31,
+  "errors": 0,
+  "ber": 0.0,
+  "ber_upper95": 0.0967741935483871,
+  "ber_conservative": 0.0,
+  "errors_by_type": {
+   "sent1_read0": 0,
+   "sent0_read1": 0,
+   "in_bursts": 0
+  }
+ },
+ "decoder": "ecg-v1",
+ "rules_sha": "b422eaa49c6a",
+ "frozen_at": "2026-11-02 16:34:17",
+ "clock_ppm": 3359.5651853748327,
+ "residual_ppm": -109.99999999999999,
+ "line_snr_db": 26.57666317566786,
+ "header_score": 0.9977588667515848,
+ "tau_s": 9.985499999999982,
+ "frames_complete": 1,
+ "frames_expected": 1,
+ "guard_ms": 25.0,
+ "es_n0_db": 12.566136960755305,
+ "frames": [
+  {
+   "m": 0,
+   "s0": 9.985499999999982,
+   "r": 0.9992590288436368,
+   "bits": 31,
+   "errors": 0,
+   "ber": 0.0,
+   "thr": -0.0688240487437391,
+   "margin": 1.9601902437432637,
+   "got": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0
+   ],
+   "valid": true,
+   "valid_v4": true
+  }
+ ],
+ "source": "pdf",
+ "voltage": {
+  "carrier": {
+   "wave": "sine",
+   "transmitter": "arduino",
+   "toneset": "baseline",
+   "modulation": "fsk",
+   "bps": 4.0,
+   "f1_hz": 16.0,
+   "f0_hz": 8.0,
+   "f0_note": null
+  },
+  "watch_input": {
+   "point": "watch ECG input electrodes: crown (signal) - back (ground)",
+   "status": "calculated",
+   "directly_measured": false,
+   "vpp_mv": 2.0,
+   "calc_vpp_mv": 2.0,
+   "calc_dc_mv": 1.1747,
+   "dc_mv": 1.1747,
+   "ratio": 0.0004697792037742261,
+   "basis": "Arduino DAC 4.2573 Vpp around mid-scale x divider R1 1e+06 / R2 470 Ohm, DAC swing 5 V; values left at the nominal default (not measured): vfull, r1, r2, tx_ppm; DC = DAC mid-scale x the divider; watch input impedance taken as >> R2"
+  },
+  "a0": {
+   "point": "none (Arduino transmitter)",
+   "status": "unavailable",
+   "directly_measured": false,
+   "reason": "Arduino transmitter: A0 is the DAC output, there is no receive monitor"
+  }
+ }
+}

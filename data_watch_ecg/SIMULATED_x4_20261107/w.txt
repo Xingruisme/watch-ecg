@@ -1,0 +1,2 @@
+(64.0, 16.0, 'rrc', 'lin27')  sync 118/124  errors 118/14986  misaligned 0  clock err med 9 ppm  39 s/rec
+(80.0, 20.0, 'rect', 'lin27')  sync 152/159  errors 68/19304  misaligned 0  clock err med 12 ppm  81 s/rec

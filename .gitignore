@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+# ECG PDFs show name, date of birth, sex and rhythm result
+*.pdf

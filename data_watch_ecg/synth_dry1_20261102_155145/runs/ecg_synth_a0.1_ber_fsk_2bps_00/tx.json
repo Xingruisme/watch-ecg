@@ -1,0 +1,60 @@
+{
+ "kind": "ber",
+ "label": "synth",
+ "condition": "a0.1",
+ "plan": {
+  "kind": "ber",
+  "modulation": "fsk",
+  "bps": 2.0,
+  "bit_us": 500000,
+  "f1_hz": 16.0,
+  "f0_hz": 8.0,
+  "f1_actual_hz": 16.01874828338623,
+  "f0_actual_hz": 8.009374141693115,
+  "f1_line_hz": 16.0,
+  "f0_line_hz": 8.0,
+  "cycles_per_bit": [
+   8.009,
+   4.005
+  ],
+  "phase_continuous": true,
+  "header": [
+   1,
+   0,
+   1,
+   0,
+   1,
+   1,
+   1,
+   0,
+   0,
+   1,
+   0
+  ],
+  "gap": [
+   0,
+   0
+  ],
+  "prbs_order": 4,
+  "frame_bits": 28,
+  "payload_bits": 15,
+  "frame_s": 14.0,
+  "frames": 7,
+  "total_s": 98.0,
+  "n_steps": 196,
+  "wave": "sine"
+ },
+ "amp_mvpp": 0.1,
+ "synthetic": true,
+ "synth": {
+  "start_s": 47.87329322107399,
+  "clock_ppm": 1227.0,
+  "amp_mvpp": 0.1,
+  "white_uv": 10.0,
+  "mains_uv": 5.0,
+  "wander_uv": 30.0,
+  "heart_bpm": null,
+  "dropout_s": 0.0,
+  "no_signal": false
+ }
+}

@@ -1,0 +1,12 @@
+(80.0, 16.0, 'rect', 'lin27')  sync 88/159  errors 268/11176  misaligned 0  clock err med 21 ppm  157 s/rec
+(80.0, 16.0, 'rrc', 'lin27')  sync 69/159  errors 424/8763  misaligned 0  clock err med 22 ppm  143 s/rec
+(80.0, 20.0, 'rect', 'lin27')  sync 149/159  errors 92/18923  misaligned 0  clock err med 13 ppm  176 s/rec
+(80.0, 20.0, 'rrc', 'lin27')  sync 95/159  errors 90/12065  misaligned 0  clock err med 38 ppm  156 s/rec
+(80.0, 24.0, 'rect', 'lin27')  sync 49/159  errors 326/6223  misaligned 0  clock err med 13 ppm  173 s/rec
+(80.0, 24.0, 'rrc', 'lin27')  sync 53/159  errors 413/6731  misaligned 0  clock err med 24 ppm  171 s/rec
+(100.0, 16.0, 'rect', 'lin27')  sync 80/200  errors 1330/10160  misaligned 0  clock err med 15 ppm  280 s/rec
+(100.0, 16.0, 'rrc', 'lin27')  sync 69/200  errors 1318/8763  misaligned 0  clock err med 20 ppm  255 s/rec
+(100.0, 20.0, 'rect', 'lin27')  sync 0/200  errors 0/0  misaligned 0  clock err med 15 ppm  291 s/rec
+(100.0, 20.0, 'rrc', 'lin27')  sync 0/200  errors 0/0  misaligned 0  clock err med 23 ppm  270 s/rec
+(100.0, 24.0, 'rect', 'lin27')  sync 35/200  errors 410/4445  misaligned 0  clock err med 11 ppm  198 s/rec
+(100.0, 24.0, 'rrc', 'lin27')  sync 8/200  errors 113/1016  misaligned 0  clock err med 17 ppm  270 s/rec

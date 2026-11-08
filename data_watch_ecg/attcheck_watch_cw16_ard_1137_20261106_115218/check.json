@@ -1,0 +1,72 @@
+{
+ "label": "watch_cw16_ard_1137",
+ "created": "2026-11-06T11:52:18",
+ "kind": "watch_recording",
+ "measured": true,
+ "note": "Arduino DAC cw 16 Hz, calculated 2 mVpp at the divider; watch worn; recorded Nov 6 2026 11:37",
+ "setup": {
+  "f_hz": 16.0,
+  "target_mvpp": 2.0,
+  "r1_ohm": 320000.0,
+  "r2_ohm": null,
+  "rs_ohm": 200.0,
+  "rl_ohm": null,
+  "channel": null
+ },
+ "inputs": {
+  "dut": {
+   "path": "/home/semanticsignals/Downloads/semanticsignals_ECGReport_06 Nov 2026_11-40_16hxarduino.pdf",
+   "copy": "dut_semanticsignals_ECGReport_06 Nov 2026_11-40_16hxarduino.pdf",
+   "sha256": "06e5fda4ab34878692890057904ace213f5fde823d94b434463c5476fc4ec717"
+  }
+ },
+ "info": {
+  "dut": {
+   "source": "watch_ecg",
+   "overrange": 0,
+   "fs_nominal": 250.0
+  }
+ },
+ "fits": {
+  "dut": {
+   "f_hz": 15.949329697249599,
+   "vpp_mv": 1.6076599499967,
+   "vpp_sigma_mv": 0.0020535386388425446,
+   "floor_vpp_mv": 0.0025737290075849902,
+   "dc_mv": -0.5054648124132456,
+   "raw_ptp_mv": 2.1020028733429132,
+   "resid_rms_mv": 0.062354577280294234,
+   "h2_pct": 0.02528273471502013,
+   "h3_pct": 4.394186380588644,
+   "mains_mvpp": {
+    "50": 0.0005632026149703496,
+    "60": 0.00030742490178204676
+   },
+   "n": 7376,
+   "fs_hz": 249.99999999999977,
+   "seconds": 29.504,
+   "cycles": 470.5690233876522,
+   "step_mv": 9.153363844505158e-05,
+   "levels": 5610,
+   "snr_db": 55.91262750814767
+  }
+ },
+ "dc_zero_corrected_mv": null,
+ "checks": [
+  {
+   "check": "frequency",
+   "status": "PASS",
+   "value": "15.9493 Hz",
+   "limit": "16 Hz +- 2 %",
+   "note": ""
+  },
+  {
+   "check": "tone detected",
+   "status": "PASS",
+   "value": "55.9 dB",
+   "limit": ">= 12 dB",
+   "note": ""
+  }
+ ],
+ "verdict": "tone present in the watch recording"
+}

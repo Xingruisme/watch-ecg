@@ -1,0 +1,26 @@
+{
+ "source": "pdf",
+ "file": "/home/semanticsignals/xingru/watch-ecg/data_watch_ecg/synth_dry1_20261102_155145/runs/ecg_synth_a0.02_ber_fsk_4bps_01/synthetic_export.pdf",
+ "checks": {
+  "rows": 4,
+  "dx_units": 0.5,
+  "units_per_s": 125.0,
+  "units_per_mv": 50.0,
+  "cal_pulse_units": 50.0,
+  "row_seconds": 8.0,
+  "lattice_offset_samples": 9.094947017729282e-13,
+  "duplicate_points": 3,
+  "gaps": [],
+  "y_resolution_uv": 0.2,
+  "cal_baseline_units": 99.0
+ },
+ "mm_per_s": 25.0,
+ "mm_per_mv": 10.0,
+ "fs_hz": 250.0,
+ "recorded_on": "Nov 2, 2026 3:51 PM",
+ "feature_version": "SYNTHETIC",
+ "hardware": "SYNTHETIC - not a watch recording",
+ "classification": "Inconclusive",
+ "first_sample_s_on_page": 0.5,
+ "samples": 7375
+}

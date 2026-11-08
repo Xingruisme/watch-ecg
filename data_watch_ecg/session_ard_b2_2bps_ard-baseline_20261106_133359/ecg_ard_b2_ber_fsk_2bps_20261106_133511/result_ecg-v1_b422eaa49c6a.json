@@ -1,0 +1,125 @@
+{
+ "run": "ecg_ard_b2_ber_fsk_2bps_20261106_133511",
+ "kind": "ber",
+ "condition": "worn-still, ard-baseline",
+ "modulation": "fsk",
+ "bps": 2.0,
+ "f1_hz": 16.0,
+ "f0_hz": 8.0,
+ "amp_mvpp": 2.0,
+ "synthetic": false,
+ "usability": {
+  "duration_s": 29.504,
+  "bad_fraction": 0.0,
+  "usable": true,
+  "reason": ""
+ },
+ "quality": {
+  "rms_mv": 0.6239682650711375,
+  "ptp_mv": 2.249137663792215,
+  "line_15.945hz_db_over_floor": 48.2397665375337,
+  "line_7.97249hz_db_over_floor": 50.222227943989026,
+  "mains_50hz_db_over_floor": -6.289727751934276,
+  "mains_60hz_db_over_floor": -22.115383754821952,
+  "flat_runs_0p1s": 0
+ },
+ "blind": {
+  "frames_valid": 1,
+  "frames_sent": 1,
+  "bits": 15,
+  "errors": 0,
+  "ber": 0.0,
+  "ber_upper95": 0.2,
+  "ber_conservative": 0.0,
+  "errors_by_type": {
+   "sent1_read0": 0,
+   "sent0_read1": 0,
+   "in_bursts": 0
+  }
+ },
+ "v4_accounting": {
+  "frames_valid": 1,
+  "frames_sent": 1,
+  "bits": 15,
+  "errors": 0,
+  "ber": 0.0,
+  "ber_upper95": 0.2,
+  "ber_conservative": 0.0,
+  "errors_by_type": {
+   "sent1_read0": 0,
+   "sent0_read1": 0,
+   "in_bursts": 0
+  }
+ },
+ "decoder": "ecg-v1",
+ "rules_sha": "b422eaa49c6a",
+ "frozen_at": "2026-11-02 16:34:17",
+ "clock_ppm": 3451.2332993579957,
+ "residual_ppm": -40.0,
+ "line_snr_db": 26.4575683505577,
+ "header_score": 0.9906985833736499,
+ "tau_s": 4.063000000000006,
+ "frames_complete": 1,
+ "frames_expected": 1,
+ "guard_ms": 50.0,
+ "es_n0_db": 30.958820268533298,
+ "frames": [
+  {
+   "m": 0,
+   "s0": 4.063000000000006,
+   "r": 0.9995784516382927,
+   "bits": 15,
+   "errors": 0,
+   "ber": 0.0,
+   "thr": -0.03704853117520246,
+   "margin": 5.514669057049337,
+   "got": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0
+   ],
+   "valid": true,
+   "valid_v4": true
+  }
+ ],
+ "source": "pdf",
+ "voltage": {
+  "carrier": {
+   "wave": "sine",
+   "transmitter": "arduino",
+   "toneset": "baseline",
+   "modulation": "fsk",
+   "bps": 2.0,
+   "f1_hz": 16.0,
+   "f0_hz": 8.0,
+   "f0_note": null
+  },
+  "watch_input": {
+   "point": "watch ECG input electrodes: crown (signal) - back (ground)",
+   "status": "calculated",
+   "directly_measured": false,
+   "vpp_mv": 2.0,
+   "dc_mv": 1.1747,
+   "ratio": 0.0004697792037742261,
+   "basis": "Arduino DAC 4.2573 Vpp around mid-scale x divider R1 1e+06 / R2 470 Ohm, DAC swing 5 V; values left at the nominal default (not measured): vfull, r1, r2, tx_ppm; DC = DAC mid-scale x the divider; watch input impedance taken as >> R2"
+  },
+  "a0": {
+   "point": "none (Arduino transmitter)",
+   "status": "unavailable",
+   "directly_measured": false,
+   "reason": "Arduino transmitter: A0 is the DAC output, there is no receive monitor"
+  }
+ }
+}
